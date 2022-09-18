@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: black;
+}
+a{
+    color: white;
+}
+a:link{
+    text-decoration: none;
+}
+.header {
+    position: sticky; 
+    top: 0px;
+    display: flex;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 0 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__row {
+    display: flex;
+    align-items: center;
+}
+.header__links {
+    padding: 20px;
+}
+.header__links:hover {
+    background: cornflowerblue;
+}
+.header__icon {
+    font-size: 24pt;
+    margin-right: 2%;
+    padding-bottom: 4px;
+}
+.theme {
+    padding: 0 220px;
+    background: url(../img/bg.png) 0 0/100% auto no-repeat fixed; 
+    height: 600px;
+    color: white;
+}
+.theme__title {
+    padding-top: 400px;
+}
+.title {
+    font-size: 40pt;
+    margin: 0 0;
+}
+.title__info {
+    font-size: 20pt;
+    margin-top: 20px;
+}
+.origin {
+    display: flex;
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: 80px 200px;
+    justify-content: space-between;
+}
+.origin__row {
+    padding-right: 80px;
+}
+.origin__title {
+    margin-bottom: 20px;
+    font-size: 28pt;
+}
+.origin__info {
+    font-size: 18pt;
+}
+.property {
+    display: flex;
+    background: whitesmoke;
+    padding: 80px 200px;
+    justify-content: space-between;
+
+}
+.property__image {
+    margin-right: 80px;
+}
+.property__title {
+    margin-bottom: 20px;
+    font-size: 28pt;
+}
+.property__info {
+    font-size: 18pt;
+}
+.lifetime {
+    display: flex;
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: 80px 200px;
+    justify-content: space-between;
+}
+.property__row {
+    padding-right: 80px;
+}
+.property__title {
+    margin-bottom: 20px;
+    font-size: 28pt;
+}
+.property__info {
+    font-size: 18pt;
+}
+.recycling {
+    display: flex;
+    background: whitesmoke;
+    padding: 80px 200px;
+    justify-content: space-between;
+
+}
+.recycling__row {
+    padding-left: 80px;
+}
+.recycling__title {
+    margin-bottom: 20px;
+    font-size: 28pt;
+}
+.recycling__info {
+    font-size: 18pt;
+}
